@@ -1,0 +1,78 @@
+.Main {
+  overflow-x: hidden;
+}
+.Main__Header {
+  width: 100%;
+  background-color: rgb(47, 95, 253);
+  height: 10vh;
+  color: white;
+  font-size: 20px;
+  display: flex;
+  padding-left: 10px;
+  align-items: center;
+  font-size: 25px;
+}
+.Main__Body {
+  height: 90vh;
+  width: 100%;
+}
+.Main__TextArea {
+  height: 90%;
+  width: 100%;
+  padding-top: 5px;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+@media only screen and (min-width: 800px) {
+  .Main__TextArea {
+    margin-bottom: 10px;
+  }
+  .Main__Header {
+    height: 9vh;
+  }
+  .Main__TextArea {
+    height: 86%;
+  }
+}
+.Main__Input {
+  height: 8%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Main__OwnMessContainer {
+  border-radius: 20px;
+  padding: 5px 12px;
+  background-color: rgb(68, 112, 255);
+  color: rgb(241, 241, 241);
+  display: inline-block;
+  margin-right: 5px;
+  max-width: 70%;
+  font-size: 25px;
+}
+.Main__RespMessContainer {
+  border-radius: 20px;
+  padding: 4px 12px;
+  background-color: rgb(197, 197, 197);
+  display: inline-block;
+  max-width: 70%;
+  margin-left: 5px;
+  font-size: 25px;
+}
+.Main__MessContainer {
+  position: relative;
+  display: flex;
+  min-height: 50px;
+  width: 100%;
+}
+.Main__MessOwn {
+  justify-content: flex-end;
+}
+
+.Main__BotImage {
+  width: 40px;
+  margin-right: 8px;
+}

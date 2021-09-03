@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Courier+Prime&family=Inter:wght@300&display=swap");
+
+.FP__Body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.FP__Image {
+  width: 200px;
+  height: 200px;
+  margin-top: 10vh;
+}
+
+.FP__HeadText {
+  font-family: "Courier Prime";
+  font-size: 45px;
+}
+.FP__SubText {
+  font-family: "Inter";
+  font-size: 23px;
+  margin-top: -20px;
+  text-align: center;
+}
+.FP__Proceed {
+  border: 1px solid rgb(68, 68, 68);
+  border-radius: 10px;
+  padding: 15px 15px;
+  font-family: "Inter";
+  font-size: 27px;
+}
+.FP__ProceedLink {
+  margin-top: 20vh;
+}
+.FP__AL {
+  color: rgb(66, 66, 66);
+  margin-top: 5vh;
+  font-size: 22px;
+}
+.FP__Link {
+  text-decoration: none;
+  color: black;
+}

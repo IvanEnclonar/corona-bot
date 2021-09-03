@@ -1,0 +1,26 @@
+.AL__Body {
+  border: 1px solid black;
+  height: 100vh;
+  width: 100%;
+}
+.AL__Header {
+  background-color: rgb(47, 95, 253);
+  height: 10vh;
+  color: white;
+  display: grid;
+  place-items: center;
+  font-size: 27px;
+}
+.AL__Form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 90vh;
+  border: 1px solid black;
+}
+.AL__Field {
+  margin-top: 10px;
+}
+.AL__Margin {
+  margin-top: 30vh;
+}

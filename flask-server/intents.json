@@ -1,0 +1,571 @@
+{"intents": [
+    {"tag": "greeting",
+      "patterns": [
+        "Hi",
+        "How are you", 
+        "Is anyone there?", 
+        "Hello", 
+        "Good day", 
+        "Whats up", 
+        "Hey",
+        "helloo",
+        "hiii", 
+        "greetings"],
+
+      "responses": [
+        "Hello!", 
+        "Good to see you again!", 
+        "Hi there, how can I help?"],
+    
+      "context_set": ""
+      },
+    {"tag": "goodbye",
+      "patterns": [
+        "cya", 
+        "See you later", 
+        "Goodbye", 
+        "I am Leaving", 
+        "Have a Good day", 
+        "bye", 
+        "cao", 
+        "see ya"],
+
+      "responses": [
+        "Sad to see you go :(", 
+        "Talk to you later", 
+        "Hope you learn something! Bye",
+        "Goodbye!"],
+
+      "context_set": ""
+    },
+    {"tag": "identification",
+      "patterns": [
+        "name", 
+        "What is your name?", 
+        "Who are you?", 
+        "Who am I talking to?", 
+        "What can you do for me?", 
+        "identify yourself", 
+        "identification", 
+        "What things about covid can you answer?",
+        "what can i get from you?"],
+
+      "responses": [
+        "Hi! I am Coronabot, helping you with information about anything covid, from its definition to the protocols you need to follow :)"],
+
+      "context_set": ""
+    },
+
+    {"tag": "covid spread",
+      "patterns": [
+        "How does COVID spread?", 
+        "How does the virus spread?",
+        "How to pass covid",
+        "covid transmission",
+        "how do you get covid",
+        "How can i get infected?"
+        ],
+
+      "responses": [
+        "COVID-19 is transmitted from person to person via droplets, contact, and fomites. THe virus spreads when these droplets are inhaled by another person"],
+      "context_set": ""
+      },
+    {"tag": "virus survival",
+      "patterns": [
+        "How long does the virus survive?", 
+        "How long is a surface infected?",
+        "Is it safe to receive packages?",
+        "Are packages safe?" 
+      ],
+      
+      "responses": [
+        "It is not yet confirmed how long the virus can survive. If you think a surface is infected, make sure to disinfect it."],
+      "context_set": ""
+      },
+
+    {"tag": "covid symptoms",
+        "patterns": [
+          "What are the symptoms of covid?",
+          "How do I know if I have covid?",
+          "How do I know if I have the virus?",
+          "How do I know if I'm infected?",
+          "What are the Symptoms",
+          "What do you feel when you have covid?",
+          "What happens if you get covid?"],
+    
+        "responses": [
+          "According to WHO, the most common symptoms of COVID-19 are fever, tiredness and dry cough. \n\nIts symptoms may include: \n-Aches and pains \n-Sore throat \n-Diarrhea \n-Conjunctivitis \n-Headache \n-Loss of taste or smell \n-Rashes on skin, or discolouration of fingers or toes."],
+        "context_set": ""
+      },
+    
+    {"tag": "asymptomatic",
+      "patterns": [
+        "Can I be infected without symptoms?",
+        "Does everyone with the virus show symptoms?",
+        "Can I have the virus and not know it?"
+        ],
+      "responses": [
+        "Some people become infected even without displaying symptoms."],
+      
+      "context_set": ""
+      },
+
+      {"tag": "infection from asymptomatic individuals",
+        "patterns": [
+          "Can I get infected from asymptomatic individuals?",
+          "Can I get infected from people without symptoms?",
+          "Can I get the virus from people without symptoms?"],
+            
+        "responses": [
+          "Since the virus is usually spread from coughing, the chances of getting COVID-19 from a person without any symptoms is very low."],
+        "context_set": ""
+      },
+      {"tag": "severe symptoms",
+        "patterns": [
+          "Who are the most at risk?",
+          "Who are most likely to develop severe symptoms?",
+          "Are older people more at risk?"],
+    
+        "responses": [
+          "Older people and those with underlying health conditions are more likely to develop severe symptoms."],
+        "context_set": ""
+      },
+      {"tag": "covid fatality",
+        "patterns": [
+          "Is covid fatal?",
+          "Can I die from covid?",
+          "Should I be worried if I get covid?"],
+            
+        "responses": [
+          "COVID-19 is usually not fatal. Most infected people only display mild symptoms. However older people are more prone to severe symptoms"],
+        "context_set": ""
+      },
+      {"tag": "sars",
+        "patterns": [
+          "How are SARS and COVID-19 related?",
+          "Are SARS and COVID the same?"],
+            
+        "responses": [
+          "SARS and COVID-19 are both coronaviruses. COVID is less deadly but more infectious."],
+        "context_set": ""
+      },
+  
+          
+  
+  
+
+    {"tag": "HOW CAN I PROTECT MYSELF FROM COVID-19?",
+      "patterns": [
+        "How do I protect myself from covid?", 
+        "How do I protect myself from it?", 
+        "How do I protect myself?", 
+        "What is the protection for it?", 
+        "What is the protection for coronavirus?", 
+        "What is the protection for corona?", 
+        "What is the protection to covid?"],
+    
+      "responses": [
+        "You should do these: \n Wear face mask and face shield \n Sanitize your hands \n Practice one-meter physical distancing and limit physical interaction \n Ensure good indoor ventilation and air flow!", 
+        "Wear face mask and face shield, Sanitize your hands, practice one-meter physical distancing and limit physical interaction, ensure good indoor ventilation and air flow."],
+            
+   "context_set": ""
+   },  
+    
+   {"tag": "WHO ARE CONSIDERED AS CLOSE CONTACTS IN THE CONTEXT OF COVID-19?",
+      "patterns": [
+        "Who are considered close contacts?", 
+        "Who are close contacts?", 
+        "What is a close contact?", 
+        "Who are considered close contacts in the context of covid?"],
+    
+      "responses": [
+        "These are your close contacts: \nInteracted with a person with COVID-19 within one meter for more than 15 minutes \nHad direct physical interaction with probable or confirmed COVID-19 case \nHad interaction with a person with COVID-19 without wearing protective equipment", 
+        "Interacted with a person with COVID-19 within one meter for more than 15 minutes, had direct physical interaction with probable or confirmed COVID-19 case, had interaction with a person with COVID-19 without wearing protective equipment."],
+      
+       "context_set": ""
+   },
+    
+   {"tag": "WHAT SHOULD I DO IF I AM A CLOSE CONTACT?",
+      "patterns": [
+        "What if I am a close contact", 
+        "Am I a close contact?",
+        "How do I know if I am a close contact?",
+        "What do I do if I am a close contact"],
+    
+      "responses": [
+       "Get tested if you are a close contact. Tell your Barangay Health Emergency Response Team (BHERT) that you are a close contact. This is to inform your next steps: \nCOVID-19 Testing \nReferral to the Temporary Treatment and Monitoring Facility (TTMF) or hospital (if needed)"],
+      
+     "context_set": ""
+   },
+   {"tag": "WHAT TESTS WILL BE USED?",
+      "patterns": [
+        "What are the tests?", 
+        "What will they use to test?",
+        "Which tests will be used?"],
+  
+      "responses": [
+        "RT-PCR (gold standard) \nAntigen (for those specified places with rising cases of COVID-19, wherein RT-PCR tests are lacking)",
+        "They will use RT-PCR (gold standard) and/or Antigen (for those specified places with rising cases of COVID-19, wherein RT-PCR tests are lacking)"],
+    
+      "context_set": ""
+   },
+  
+    {"tag": "WHAT IS THE DIFFERENCE BETWEEN QUARANTINE AND ISOLATION?",
+      "patterns": [
+        "What is quarantine?", 
+        "What is isolation?", 
+        "What is quarantine and isolation?", 
+        "What is the difference between quarantine and isolation?", 
+        "Is it quarantine or isolation?", 
+        "Quarantine or Isolation?"],
+  
+      "responses": [
+        "Quarantine - period to monitor well-being after being identified as a close contact with a person with COVID-19 \n Isolation - separating people with symptoms or confirmed COVID-19 cases", 
+        "Quarantine is a period to monitor well-being after being identified as a close contact with a person with COVID-19. Isolation is separating people with symptoms or confirmed COVID-19 cases."],
+    
+      "context_set": ""
+ },
+  
+   {"tag": "I HAVE TO ISOLATE MYSELF, WHAT SHOULD I DO?",
+      "patterns": [
+        "What do I do to isolate", 
+        "What do I do to myself to isolate", 
+        "I need to isolate",
+        "How do I isolate",  
+        "What should I do for isolation", 
+        "Steps in isolation"],
+  
+    "responses": [
+        "Continue wearing your face mask to prevent the spread of any virus/disease \n Disinfect all objects and surfaces that are frequently touched \n Practice physical distance and stay in your room", 
+        "Continue wearing your face mask to prevent the spread of any virus/disease, disinfect all objects and surfaces that are frequently touched, practice physical distance and stay in your room."],
+    
+    "context_set": ""
+ },
+  
+    {"tag": "HOW IS THE HOME QUARANTINE OR ISOLATION BEING DONE?",
+      "patterns": [
+        "How is the quarantine done", 
+        "How is isolation done", 
+        "How to do quarantine and isolation", 
+        "How to do isolation or quarantine at home"],
+  
+     "responses": [
+        "If you have severe or critical symptoms, you will be referred to a hospital \n If you are asymptomatic or with mild/moderate symptoms, you may isolate yourself at your home or you may go to a Temporary Treatment and Monitoring Facility (TTMF) \n You may only isolate yourself at home if: \n\n You have a separate room with other members of the family \n You have a separate bathroom/comfort room in your room \n You are not living with people who belong to the vulnerable population \n If you are allowed to isolate at home, make sure to: \n\n Practice one meter physical distancing, wear face mask, and sanitize your hands every time you interact with your family member/s \n Eat right and drink medicines prescribed by your doctor \n Disinfect properly your things, wash hands before and after you use them"],
+            
+    "context_set": ""
+ },
+  
+   {"tag": "WHAT SHOULD I REMEMBER IF I AM DOING HOME QUARANTINE/ISOLATION?",
+      "patterns": [
+        "What do I do at home quarantine or isolation", 
+        "What to do at home quarantine", 
+        "What to do in isolation"],
+          
+     "responses": [
+        "Ensure to not spread COVID-19 to others! \n As much as possible, isolate yourself from other people at your home \n -If you need to interact with other people or you need to go outside, wear face mask and practice one meter physical distancing \n -Remind your carers or family members to always wear face mask if they have to interact with you \n -Cover your mouth and nose using tissue when you cough or sneeze and wash your hands afterwards \n -Do not let others use your personal belongings such as towels, bed sheets, plates, and utensils."],
+    
+     "context_set": ""
+ },
+  
+    {"tag": "I WANT TO QUARANTINE/ISOLATE IN A TEMPORARY TREATMENT AND MONITORING FACILITY (TTMF), WHAT SHOULD I DO?",
+      "patterns": [
+        "I want to quarantine in a ttmf", 
+        "I want to be quarantined or isolated in a temporary treatment and monitoring facility",
+        "What do I do if I want to isolate in a ttmf"],
+          
+    "responses": [
+       "If you choose to go to a TTMF, contact your Barangay Health Emergency Response Team (BHERT) for your referral."],
+    
+    "context_set": ""
+ },
+
+    {"tag": "HOW WILL THE HOME MANAGEMENT OF MILD OR MODERATE SYMPTOMS BE DONE?",
+      "patterns": [
+        "I have signs", 
+        "I have symptoms", 
+        "I don't feel well",
+        "I have fever, what do I do"],
+
+      "responses": [
+        "If you have fever, you may do the following: \n\n-Check temperature every four (4) hours; You may drink paracetamol if your temperature reaches above 37.5 degree celsius, every four (4) hours. \n-Take a bath daily if you can and if possible \n-Ensure good ventilation and airflow in your room \n-Do not wear more layers of clothes \n-Drink a lot of water, fresh fruit juices, and mild teas \n-If you have cough or sore throat, you do the following: \n\n-Make sure to drink your prescribed medicines \n-Drink a lot of water \n-Keep away from those that can heighten your symptoms such as dust, pollen, perfume, and animal fur."],
+  
+      "context_set": ""
+},
+
+    {"tag": "WHAT ARE THE SYMPTOMS THAT YOU NEED TO WATCH OUT FOR?",
+      "patterns": [
+        "What are the symptoms?", 
+        "symptoms of covid",
+        "how do you know you have covid",
+        "What are the signs I should be careful of?"],
+
+      "responses": [
+        "-Difficulty in breathing, even when sitting \n-Cough, fever, and difficulty in breathing \n-Severe coughing \n-Confusion or sudden change in mental well-being \n-Pain in the chest \n-Low oxygen level \n-Excessive sleepiness or cannot be woken up \n-Bluish or darkened face or lips \n-If you are experiencing other severe symptoms, call your BHERT immediately."],
+  
+      "context_set": ""
+},
+
+    {"tag": "DO I NEED TO FINISH MY 14-DAY QUARANTINE IF I AM A CLOSE CONTACT THAT TESTED NEGATIVE FOR COVID-19?",
+      "patterns": [
+        "Do I need to finish 14 day quarantine?", 
+        "I tested negative, do I still need to finish my 14 day quarantine?",
+        "I am a close contact but I tested negative, do I still need to finish my 14 day quarantine?",
+        "Do I need to finish the 14 day quarantine even if I tested negative?"],
+
+      "responses": [
+        "Yes. You need to finish your 14-day quarantine and finish it without developing any symptoms. \n\nASYMPTOMATIC \n Isolation period: At least ten (10) days, from the day you received your positive result \n Where to isolate: Home or in a Temporary Treatment and Monitoring Facility (TTMF) \n Clearance: If you remain not having any symptoms within ten (10) days from the day you got tested \n Do you need to get re-tested? No \n\nMILD \n Isolation period: At least ten (10) days, from the day you received your positive result \n Where to isolate: Home or in a Temporary Treatment and Monitoring Facility (TTMF) \n Clearance: If you remain not having any symptoms and are clinically recovered in the past three (3) days \n Do you need to get re-tested? No \n\nMODERATE, SEVERE OR CRITICAL \n Isolation period: At least twenty one (21) days, from the first day you experience any symptoms \n Where to isolate: Hospital \n Clearance: If you remain not having any symptoms and are clinically recovered in the past three (3) days \n Do you need to get re-tested? No \n *home isolation/quarantine may only be done if you have your own room and bathroom/comfort room, and you do not live with a family member who belong to the vulnerable group"],
+
+      "context_set": ""
+    },
+
+    {"tag": "WHAT ARE THE WAYS TO MAINTAIN A STRONG PHYSICAL AND MENTAL WELL-BEING?",
+      "patterns": [
+        "How do I cope?", 
+        "How do I keep up a strong physical and mental well being", 
+        "help me",
+        ":(",
+        "how do I keep my wellbeing up"],
+
+      "responses": [
+        "It will be ok :) \n-Eat nutritious food such as fruits, vegetables, fish, and meat \n-Exercise inside for 30 minutes per day \n-Ensure to have enough sleep \n-Practice self-care. Simple relaxing and talking with your loved ones is a form of self-care. \n-Talk and check on with your loved ones! <3"],
+  
+      "context_set": ""
+},
+
+    {"tag": "WHAT ARE CORONAVIRUSES?",
+        "patterns": [
+          "what is corona virus", 
+          "whats covid", 
+          "define corona", 
+          "define corona virus", 
+          "define covid 19", 
+          "what is sars covid", 
+          "meaning of corona virus", 
+          "what are coronaviruses",
+          "meaning of covid virus"],
+
+        "responses": [
+          "Coronaviruses are a large family of viruses causing a range of illnesses, from the common cold to more serious infections such as those caused by Middle East Respiratory Syndrome-related Coronavirus (MERS-CoV) and Severe Acute Respiratory Syndrome-related Coronavirus (SARS-CoV). Coronavirus can also cause a variety of diseases in farm animals and domesticated pets."],
+  
+        "context_set": ""
+},
+
+    {"tag": "WHAT IS THE NOVEL CORONAVIRUS",
+      "patterns": [
+        "what is novel", 
+        "meaning novel coronavirus", 
+        "Whats novel coronavirus?",
+        "Whats covid-19", 
+        "what is the novel coronavirus", 
+        "novel coronavirus"],
+
+      "responses": [
+        "The novel coronavirus is a new strain of coronavirus that has not been previously identified in humans. The novel coronavirus has caused severe pneumonia in several cases in China and has been exported to a range of countries and cities. \n\n Last February 12, 2020, the World Health Organization (WHO) announced that the novel disease is officially called Coronavirus Disease 19 or COVID-19, and the virus infecting it is referred to as COVID-19 virus."],
+  
+      "context_set": ""
+},
+
+    {"tag": "WHERE DID THE COVID-19 ORIGINATE?",
+      "patterns": [
+        "where did covid come from", 
+        "where did the corona virus start from", 
+        "how did this pandemic start", 
+        "how did the covid virus start", 
+        "how did this situation originate", 
+        "from where did this situation come from", 
+        "why do we even have corona virus", 
+        "How did this even start",
+        "is covid even real",
+        "covid is fake",
+        "corona virus is a hoax",
+        "why did covid 19 exist"],
+
+      "responses": [
+        "Last 31 December 2019, a clustering of pneumonia cases of unknown etiology  in Wuhan, China was reported to the WHO Country Office. The outbreak was later determined to be caused by a new coronavirus strain that has not been previously identified in humans."],
+  
+      "context_set": ""
+},
+
+    {"tag": "COVID-19 Definition ",
+      "patterns": [
+        "What is COVID-19",
+        "What is Coronavirus",
+        "Corona virus",
+        "Coronavirus",
+        "What is COVID"],
+
+
+      "responses": [
+        "Coronavirus disease (COVID-19) is an infectious disease caused by a newly discovered coronavirus. Most people infected with the COVID-19 virus will experience mild to moderate respiratory illness and recover without requiring special treatment.  Older people, and those with underlying medical problems like cardiovascular disease, diabetes, chronic respiratory disease, and cancer are more likely to develop serious illness. "],
+  
+      "context_set": ""
+},
+
+
+    {"tag": "COVID-19 Variants",
+      "patterns": [
+        "What is a variant",
+        "Why are there variants",
+        "How do variants form",
+        "What are the variants present",
+        "What are the variants in the Philippines",
+        "Variant",
+        "Are variants more contagious",
+        "Are variants more deadly"],
+
+      "responses": [
+        "Viruses constantly change through mutation, and new variants of a virus are expected to occur. Sometimes new variants emerge and disappear. Other times, new variants persist. Multiple variants of the virus that causes COVID-19 have been documented globally; these variants also tend to cause more severe symptoms of the disease. As of July 2021, variants present in the Philippines include Delta (B.1.617.2), Alpha (B.1.1.7), Beta variant cases, and Theta (P.3) variant cases."],
+  
+"context_set": ""
+},
+
+
+    {"tag": "Protocol for COVID-Positive/Symptomatic",
+      "patterns": [
+        "What to do if I am COVID positive",
+        "I have symptoms of COVID",
+        "What do I do if I have COVID",
+        "What do I do if I have COVID-19",
+        "Where should I go if I have COVID",
+        "Where should I go if I have COVID-19",
+        "I am COVID positive",
+        "I am COVID-19 positive",
+        "What if I was in close contact with a COVID-19 positive person"],
+
+      "responses": [
+        "Anyone with symptoms should be tested, wherever possible. People who do not have symptoms but have had close contact with someone who is, or may be, infected may also consider testing. While a person is waiting for test results, they should remain isolated from others. \n\nIf you test positive for COVID-19, follow these guidelines as much as possible: \n-Stay home. Most people with COVID-19 have mild illness and can recover at home without medical care. Unless the symptoms are severe, it is best to stay at home to avoid infecting more people. \n-Do not visit public areas. \n-Get rest and stay hydrated. Take over-the-counter medicines to help you feel better. \n-Stay in touch with your doctor. Call before you get medical care. Be sure to get care if you have trouble breathing, or have any other emergency warning signs, or if you think it is an emergency. \n-Avoid public transportation, ride-sharing, or taxis. \n-Isolate yourself from other people and avoid sharing rooms or belongings. \n-Tell your close contacts."],
+  
+      "context_set": ""
+},
+
+
+    {"tag": "COVID-19 Hospitals",
+      "patterns": [
+        "Hospitals in Davao",
+        "Hospitals in Davao City",
+        "Where can i go for hospitalization",
+        "Should I go to the hospital"],
+
+      "responses": [
+        "If your symptoms are severe (e.g. breathing troubles), it is best to get medical care. Hospitals in Davao City that administer COVID-19 tend to change depending on local government protocols. However, the Southern Philippines Medical Center (SPMC) is always administering COVID-19 patients."],
+  
+      "context_set": ""
+},
+
+
+    {"tag": "COVID-19 Myths",
+      "patterns": [
+        "Is it true",
+        "Is this fake",
+        "Is this true",
+        "COVID Myths",
+        "COVID Fake news",
+        "What are fake news about COVID",
+        "What are fake news about COVID-19",
+        "Microchips",
+        "Can vaccines cause death"],
+
+      "responses": [
+        "Here are some common misconceptions about COVID-19: \n\n-Receiving the COVID-19 vaccine will make one magnetic. \n-COVID-19 vaccines shed their components. \n-It is not safe for me to have a baby in the future if I receive a COVID-19 vaccine. \n-COVID-19 vaccines will alter my DNA. \n-Getting the COVID-19 vaccine will cause me to test positive during a COVID-19 test."],
+  
+      "context_set": ""
+},
+
+
+    {"tag": "Quarantine",
+      "patterns": [
+        "ECQ",
+        "Enhanced Community Quarantine",
+        "MECQ",
+        "Modified Enhanced Community Quarantine",
+        "GCQ",
+        "General Community Quarantine",
+        "What is quarantine",
+        "Why is quarantine important",
+        "Should I quarantine",
+        "Quarantine",
+        "MGCQ",
+        "Modified General Community Quarantine"],
+
+      "responses": [
+        "Quarantine is essential to stopping the spread of COVID-19 infections. In the Philippines, there are generally 4 types of quarantine. These are the following: \n\nEnhanced Community Quarantine (ECQ) \n-No movement regardless of age and health status \n-Minimal economic activity except for utility services (food, power and water, and the critical economic sectors) \n-No transportation activity except for utility services \n-Suspension of physical classes \n-Modified Enhanced Community Quarantine (MECQ) \n-Limited movement within the containment zone for obtaining essential services and work \n-Operations of selected manufacturing and processing plants up to maximum of 50% workforce \n-Limited transportation services for essential goods and services \n-Suspension of physical classes \n\nGeneral Community Quarantine (GCQ) \n-Limited movement to services and work within Buffer Zone (BZ) and Outside Buffer Zone (OBZ) \n-Operation of government offices and industries up to maximum of 75% workforce \n-Limited transportation services to support government and private operations \n-Flexible learning arrangements; operation at limited capacities to cater to students \n\nModified General Community Quarantine (MGCQ) \n-Permissive socio-economic activities with minimal public health standards"],
+  
+      "context_set": ""
+},
+
+
+    {"tag": "Safety Measures",
+      "patterns": [
+        "What can I do to avoid COVID-19",
+        "Mask",
+        "Face shield",
+        "Vaccine",
+        "Vaccination",
+        "Social Distancing",
+        "How to avoid COVID-19",
+        "How to avoid COVID"],
+
+      "responses": [
+        "To prevent the spread of COVID-19: \n-Clean your hands often. Use soap and water, or an alcohol-based hand rub. \n-Maintain a safe distance from anyone who is coughing or sneezing. \n-Wear a mask when physical distancing is not possible. \n-Don’t touch your eyes, nose or mouth. \n-Cover your nose and mouth with your bent elbow or a tissue when you cough or sneeze. \n-Stay home if you feel unwell. \n-If you have a fever, cough and difficulty breathing, seek medical attention. \n\nPlease know that masks alone do not protect against COVID-19, and should be combined with physical distancing and hand hygiene."],
+  
+      "context_set": ""
+},  
+
+
+    {"tag": "Where can the public get information about COVID-19",
+      "patterns": [
+        "Where can I get more information",
+        "Public Information",
+        "Public Info",
+        "More COVID-19 info",
+        "Where to go for more information",
+        "Who to ask for more information"],
+
+      "responses": [
+        "The public can get information about the 2019-nCoV from the DOH’s official press releases, website, and official social media platforms. Please be wary of fake news and reports circulating online, and always verify the sources of your information."],
+  
+      "context_set": ""
+},  
+
+
+    {"tag": "COVID-Tests",
+      "patterns": [
+        "Should I get tested for COVID-19",
+        "Should I get tested for COVID",
+        "What test should I get",
+        "RT-PCR Test",
+        "Rapid Test",
+        "PCR Test",
+        "Antibody Test",
+        "Serology Test",
+        "LFT",
+        "Lateral Flow Test"],
+
+      "responses": [
+        "Who should get tested: \n-People who have symptoms of COVID-19. \n-Most people who have had close contact (within 6 feet for a total of 15 minutes or more over a 24-hour period) with someone with confirmed COVID-19. \n-Fully vaccinated people with no COVID-19 symptoms do not need to be tested following an exposure to someone with COVID-19. \n-People who have tested positive for COVID-19 within the past 3 months and recovered do not need to get tested following an exposure as long as they do not develop new symptoms. \n-Unvaccinated people who have taken part in activities that put them at higher risk for COVID-19 because they cannot physically distance as needed to avoid exposure, such as travel, attending large social or mass gatherings, or being in crowded or poorly-ventilated indoor settings. \n-People who have been asked or referred to get tested by their healthcare provider. \n\nThese are the types of COVID-19 tests available: \n-PCR Test. PCR (Polymerase Chain Reaction) tests are used to directly screen for the presence of viral RNA, which will be detectable in the body before antibodies form or symptoms of the disease are present. This means the tests can tell whether or not someone has the virus very early on in their illness. \n-LFT. LFTs (Lateral Flow Tests) are similar to PCR tests, in that they’re both types of antigen test, designed to pick up active Covid-19 infection rather than antibodies to the disease. \n-Antibody Tests. Antibody tests detect antibodies developed in response to infection from the virus. Antibody tests can only detect those who have already been infected.It won’t tell you who is infected, because the antibodies are generated after a week or two, after which time the virus should have been cleared from the system."],
+  
+      "context_set": ""
+},  
+
+
+    {"tag": "What are concerned agencies doing about the COVID-19 situation",
+      "patterns": [
+        "What are concerned agencies doing about the COVID-19 situation",
+        "What is the Department of Health doing",
+        "What is the government doing",
+        "What is the DOH doing"],
+
+      "responses": [
+        "DOH is closely monitoring individuals who manifested signs of respiratory infection and had a history of travel to China or other countries with confirmed COVID-19 cases, and is coordinating with WHO and China Center for Disease Control for updates.  The Department is also strictly monitoring our repatriates from Wuhan, China and the M/V Diamond Princess in Japan, and continues to conduct contact tracing of our positive cases to ascertain that the spread of the virus locally is put to a halt. \n\nMoreover, DOH has instituted the Interagency Task Force for the Management of Emerging Infectious Diseases (IATF-EID), the agency in-charge for the overall management of COVID-19 preparedness and response. It has likewise created the DOH Emergency Operation Center (DOH EOC) for COVID-19, a command center in-charge of consolidating updates and information as the COVID-19 health event evolves. \n\nIn terms of communicating developments to the public, the Department holds press briefings thrice a week to ensure the government’s transparency and accountability. \n\nDOH also enhanced its coronavirus laboratory testing capacity, hospital preparedness, rapid response, and its risk communication and information dissemination. Personal Protective Equipment is made available at the Bureau of Quarantine, Centers for Health Development, and DOH Hospitals. \n\nFinally, the Bureau of Quarantine is working with airlines and airport authorities to strengthen border surveillance, while the Epidemiology Bureau is heightening its community surveillance."],
+  
+      "context_set": ""
+}
+
+
+  
+
+
+
+  ]
+  }
+  
